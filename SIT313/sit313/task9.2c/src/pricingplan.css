@@ -1,0 +1,107 @@
+
+
+.form-area {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.plan-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plan-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border 0.2s ease;
+  cursor: pointer;
+}
+
+.plan-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.plan-card .price {
+  font-size: 1.25rem;
+  color:  #3b49df;
+  margin: 10px 0;
+}
+
+.plan-card .features {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  text-align: left;
+}
+
+.plan-card .features li {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid  #3b49df;
+  color: #333;
+}
+
+.plan-card.selected {
+  border: 2px solid  #3b49df;
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+}
+
+button.card-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: inherit;
+  font: inherit;
+}
+
+button.card-button:focus {
+  outline: none;
+}
+
+button.card-button:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  background-color:  #3b49df;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0514b4;;
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
+.plan-cards:hover{
+  color: white;
+}

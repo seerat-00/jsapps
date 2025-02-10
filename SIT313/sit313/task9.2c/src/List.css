@@ -1,0 +1,125 @@
+.list-area {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 99%;
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  form{
+    width: auto;
+    padding: 10px;
+  }
+  option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  h4 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .button-area-submit button {
+    background-color: #67696b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .button-area-submit button:hover {
+    background-color: #4a4e4b;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    gap: 15px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(30% - 5px); 
+    box-sizing: border-box;
+  }
+  
+  .card h4 {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
+  .button-area-submit button {
+    background-color: #3b49df;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .button-area-submit button:hover {
+    background-color: #0514b4;
+  }
+  
